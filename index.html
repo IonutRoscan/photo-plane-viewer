@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes"
+    >
+
+    <title>Obelisk Photo Plane</title>
+
+    <link
+        rel="stylesheet"
+        href="./style.css"
+    >
+</head>
+
+<body>
+
+    <main id="viewer">
+
+        <div id="scene">
+
+            <div id="plane">
+
+                <div class="face front-face">
+                    <img
+                        id="front-image"
+                        draggable="false"
+                        alt=""
+                    >
+                </div>
+
+                <div
+                    class="face back-face"
+                    id="back-face"
+                ></div>
+
+            </div>
+
+        </div>
+
+        <div
+            id="title"
+            hidden
+        ></div>
+
+    </main>
+
+    <script src="./viewer.js"></script>
+
+</body>
+</html>
