@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes"
+    >
+
+    <meta
+        name="color-scheme"
+        content="light dark"
+    >
+
+    <title>Obelisk Interactive Hotspot Image</title>
+
+    <link
+        rel="stylesheet"
+        href="./style.css"
+    >
+
+</head>
+
+<body>
+
+    <main id="viewer">
+
+        <div
+            id="image-title"
+            hidden
+        ></div>
+
+
+        <div id="toolbar">
+
+            <button
+                id="zoom-out"
+                type="button"
+                aria-label="Zoom out"
+            >
+                −
+            </button>
+
+            <button
+                id="reset-view"
+                type="button"
+                aria-label="Reset view"
+            >
+                ◆
+            </button>
+
+            <button
+                id="zoom-in"
+                type="button"
+                aria-label="Zoom in"
+            >
+                +
+            </button>
+
+        </div>
+
+
+        <div id="viewport">
+
+            <div id="content">
+
+                <img
+                    id="main-image"
+                    draggable="false"
+                    alt=""
+                >
+
+                <div id="hotspots"></div>
+
+            </div>
+
+        </div>
+
+
+        <aside
+            id="info-card"
+            hidden
+        >
+
+            <button
+                id="info-close"
+                type="button"
+                aria-label="Close"
+            >
+                ×
+            </button>
+
+            <div id="info-number"></div>
+
+            <div id="info-title"></div>
+
+            <div id="info-text"></div>
+
+        </aside>
+
+
+        <div
+            id="error-message"
+            hidden
+        >
+            IMAGE COULD NOT BE LOADED
+        </div>
+
+    </main>
+
+
+    <script src="./viewer.js"></script>
+
+</body>
+
+</html>
