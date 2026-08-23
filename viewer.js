@@ -2,6 +2,30 @@
 
     "use strict";
 
+    document.documentElement.style.setProperty(
+    "background",
+    "transparent",
+    "important"
+    );
+    
+    document.documentElement.style.setProperty(
+        "background-color",
+        "rgba(0, 0, 0, 0)",
+        "important"
+    );
+    
+    document.body.style.setProperty(
+        "background",
+        "transparent",
+        "important"
+    );
+    
+    document.body.style.setProperty(
+        "background-color",
+        "rgba(0, 0, 0, 0)",
+        "important"
+    );
+
 
     // ============================================================
     // PARAMETERS
